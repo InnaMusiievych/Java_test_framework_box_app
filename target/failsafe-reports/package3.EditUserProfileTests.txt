@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: package3.EditUserProfileTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 90.211 sec <<< FAILURE!
+save_empty_fields_test(package3.EditUserProfileTests)  Time elapsed: 0.009 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"login"}
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'imusiievych-E520', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-49-generic', java.version: '1.8.0_11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.1, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 35400e2e-1eff-4711-95c5-6f54faf07100
+*** Element info: {Using=id, value=login}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'imusiievych-E520', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-49-generic', java.version: '1.8.0_11'
+Driver info: driver.version: unknown
+	at com.sun.proxy.$Proxy20.clear(Unknown Source)
+	at package3.steps.EndUserSteps.logs_in(EndUserSteps.java:40)
+	at package3.EditUserProfileTests.testInitialization(EditUserProfileTests.java:34)

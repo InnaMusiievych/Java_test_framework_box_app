@@ -1,0 +1,47 @@
+<acceptance-test-run title="Comment note" name="CommentNote" steps="3" successful="2" failures="0" errors="1" skipped="0" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="26266" timestamp="2015-05-28T16:01:07.019+03:00">
+  <user-story id="package3.requirements.Application.Search.SearchByKeyword" name="Search by keyword" path="package3.requirements.Application.Search">
+    <feature id="package3.requirements.Application.Search" name="Search"/>
+  </user-story>
+  <tags>
+    <tag name="Search" type="feature"/>
+    <tag name="Search by keyword" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="12666">
+    <screenshots>
+      <screenshot image="0c442d50369a237329e8f76e77eb233e_NONE.png"/>
+    </screenshots>
+    <description>Is login page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="10382">
+    <screenshots>
+      <screenshot image="abb317136630c833f844d91e8c6b74ac_NONE.png"/>
+    </screenshots>
+    <description>Logs in: &lt;span class=&apos;step-parameter&apos;&gt;i.musiievych@gmail.com, dolly1010vlad&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="ERROR" duration="3034">
+    <screenshots>
+      <screenshot image="5a8b6f262b1459f16ba10d7afb314a63_NONE.png"/>
+      <screenshot image="61d2da3b3f6c9b3221229c696bc42356_NONE.png"/>
+    </screenshots>
+    <description>Comment noteby name: &lt;span class=&apos;step-parameter&apos;&gt;2.jpg&lt;/span&gt;</description>
+    <error>Unable to locate element: {&quot;method&quot;:&quot;class name&quot;,&quot;selector&quot;:&quot;author_name&quot;}
+Command duration or timeout: 449 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-52-generic&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dbdec002-f5d3-4f66-a532-a6734281216c
+*** Element info: {Using=class name, value=author_name}</error>
+    <exception>org.openqa.selenium.NoSuchElementException:Unable to locate element: {&quot;method&quot;:&quot;class name&quot;,&quot;selector&quot;:&quot;author_name&quot;}
+Command duration or timeout: 449 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-52-generic&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dbdec002-f5d3-4f66-a532-a6734281216c
+*** Element info: {Using=class name, value=author_name}
+[package3.pages.BoxHomePage.unvisible_field(BoxHomePage.java:218), package3.pages.BoxHomePage.clickOnCommentInput(BoxHomePage.java:225), package3.steps.EndUserSteps.commentNotebyName(EndUserSteps.java:146), package3.HomePageTests.CommentNote(HomePageTests.java:82)]</exception>
+  </test-step>
+</acceptance-test-run>

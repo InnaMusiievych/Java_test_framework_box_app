@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Home</title>
+    <link rel="shortcut icon" href="favicon.ico" >
+    <link href="css/core.css" rel="stylesheet" type="text/css"/>
+    <style type="text/css">
+	#slider {
+	    position:relative;
+	    width:1000px; /* Change this to your images width */
+	    height:800px; /* Change this to your images height */
+	    background:url(images/loading.gif) no-repeat 50% 50%;
+	}
+	#slider img {
+	    position:absolute;
+	    top:0px;
+	    left:0px;
+	    display:none;
+	}
+	#slider a {
+	    border:0;
+	    display:block;
+	}
+
+    </style>
+
+	<!-- CSS Files -->
+    <link href="slides/js/global.css" rel="stylesheet" type="text/css"/>
+
+    <script src="scripts/jquery.js"></script>
+
+	<link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+
+	<script src="nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+
+    function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+            vars[key] = value;
+        });
+        return vars;
+    }
+
+    var screenshotIndex = getUrlVars()["screenshot"];
+
+	$(window).load(function() {
+	    $('#slider').nivoSlider({
+            startSlide:screenshotIndex,
+            effect:'fade',
+			animSpeed:200,
+			directionNavHide:false,
+			manualAdvance:true,
+			keyboardNav:true
+		});
+	});
+	</script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/logo.jpg" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="bluetext"><a href="index.html" class="bluetext">Home</a> > <a href="39ac135fd6381f9b50e2096e4ddbcb3c727e4af4bc55cd25df65b7ab6885c53b.html">Validate user can add new folder </a> > Screenshots </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div class="menu">
+    <ul>
+        <li><a href="index.html" class="current">Overall Test Results</a></li>
+        <li><a href="capabilities.html" >Requirements</a></li>
+    </ul>
+    <span class="date-and-time">Report generated 29-04-2015 13:11</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+    <div id="contentbody">
+        <div class="titlebar">
+        <div class="story-title">
+            <table width="1005">
+                <td width="50"><img class="story-outcome-icon" src="images/success.png" width="25" height="25"/> </td>
+                <td width="%"><span class="test-case-title"><span
+                        class="success-color">Validate user can add new folder<span class="related-issue-title"></span></span></span>
+                </td>
+                <td width="100"><span class="test-case-duration"><span class="greentext">36.16s</span></span>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <a class="tagLink" href="104e86778c61b4270a19fa6dd7f05671eb0be10515a3780f86ccead031b4bc17.html">Search (feature)</a>
+                        <a class="tagLink" href="273bcb5ed6a158a4e8d778bc184d9ba1606d36e553c7c72620e5e05eca31c5cd.html">Search by keyword (story)</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+
+	 <div class="slider-wrapper theme-default">
+		<div id="slider">
+                <img src="8e88324f06d9f7b303efe61ff03242fd_NONE.png" alt="" title="Is login page" width="1427"/>
+                <img src="020966f1767b825c4a87f810143e42e7_NONE.png" alt="" title="Logs in: &lt;span class='step-parameter'&gt;i.musiievych@gmail.com, dolly1010vlad&lt;/span&gt;" width="1427"/>
+                <img src="6b9c4faf0d04a27e1cc5a05479c438ba_NONE.png" alt="" title="Verify new folder popup is displayed" width="1427"/>
+                <img src="5cd4d01843d564f22e4ed39f370b8c8b_NONE.png" alt="" title="Verify new folder popup is displayed" width="1427"/>
+                <img src="99e113aab998a58a98794cab3f1b1188_NONE.png" alt="" title="Verify new folder is added: &lt;span class='step-parameter'&gt;Inna4658dab7-1860-4ffc-ad11-6f0e071f58df&lt;/span&gt;" width="1427"/>
+                <img src="4a24ec8dbfafa6d8b73338d9df73803f_NONE.png" alt="" title="Verify new folder is added: &lt;span class='step-parameter'&gt;Inna4658dab7-1860-4ffc-ad11-6f0e071f58df&lt;/span&gt;" width="1427"/>
+        </div>
+	  </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Thucydides version 0.9.268 - Build UNKNOWN</span>
+</div>
+</body>
+</html>

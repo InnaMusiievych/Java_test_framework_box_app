@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="package3.EditUserProfileTests" time="54.509" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/local/java/jdk1.8.0_11/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.11-b03"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/imusiievych/Desktop/WebAutomationCourses/artifact3"/>
+    <property name="java.runtime.version" value="1.8.0_11-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/local/java/jdk1.8.0_11/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.13.0-49-generic"/>
+    <property name="user.home" value="/home/imusiievych"/>
+    <property name="user.timezone" value="Europe/Kiev"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="imusiievych"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/local/java/jdk1.8.0_11/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify thucydides:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_11"/>
+    <property name="java.ext.dirs" value="/usr/local/java/jdk1.8.0_11/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/local/java/jdk1.8.0_11/jre/lib/resources.jar:/usr/local/java/jdk1.8.0_11/jre/lib/rt.jar:/usr/local/java/jdk1.8.0_11/jre/lib/sunrsasign.jar:/usr/local/java/jdk1.8.0_11/jre/lib/jsse.jar:/usr/local/java/jdk1.8.0_11/jre/lib/jce.jar:/usr/local/java/jdk1.8.0_11/jre/lib/charsets.jar:/usr/local/java/jdk1.8.0_11/jre/lib/jfr.jar:/usr/local/java/jdk1.8.0_11/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="package3.EditUserProfileTests" name="fill_and_save_profile_info_test" time="54.5"/>
+  <testcase classname="package3.EditUserProfileTests" name="save_empty_fields_test" time="0.009">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;login&quot;}
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.1, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 35400e2e-1eff-4711-95c5-6f54faf07100
+*** Element info: {Using=id, value=login}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;login&quot;}
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.1, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 35400e2e-1eff-4711-95c5-6f54faf07100
+*** Element info: {Using=id, value=login}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown
+	at com.sun.proxy.$Proxy20.clear(Unknown Source)
+	at package3.steps.EndUserSteps.logs_in(EndUserSteps.java:40)
+	at package3.EditUserProfileTests.testInitialization(EditUserProfileTests.java:34)
+</error>
+    <system-out>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;login&quot;}
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.1, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 35400e2e-1eff-4711-95c5-6f54faf07100
+*** Element info: {Using=id, value=login}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown</system-out>
+    <system-err>54990 [pool-1-thread-2] INFO net.thucydides.core.Thucydides - Test Suite Started: Edit user profile tests
+54990 [pool-1-thread-2] INFO net.thucydides.core.Thucydides - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ &lt; | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: save_empty_fields_test
+--------------------------------------------------------------------
+54990 [pool-1-thread-2] INFO net.thucydides.core.Thucydides - TEST NUMBER: 5
+55277 [pool-1-thread-2] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: is_login_page
+59240 [pool-1-thread-2] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: is_login_page
+59918 [pool-1-thread-2] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: logs_in
+90582 [pool-1-thread-2] INFO net.thucydides.core.steps.StepInterceptor - STEP FAILED: logs_in - Timed out after 30 seconds. Unable to locate the element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;login&quot;}
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.1, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 35400e2e-1eff-4711-95c5-6f54faf07100
+*** Element info: {Using=id, value=login}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown
+90675 [pool-1-thread-2] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: goToProfileAndBranding
+90692 [pool-1-thread-2] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: emptiesProfileInfo
+90695 [pool-1-thread-2] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: verifyErrorMessageForUsername_isDisplayed
+90707 [pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - Reporting formats: [JSON, XML, HTML]
+90713 [pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@69849c1f(format = Optional.of(XML))
+90713 [pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@69849c1f
+91253 [pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@20ad7e89(format = Optional.of(JSON))
+91253 [pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@20ad7e89
+91316 [pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@13d3d785(format = Optional.of(HTML))
+91316 [pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@13d3d785
+91320 [pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - Generating reports using: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@69849c1f
+91340 [pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - Processing test outcome Search by keyword:fill_and_save_profile_info_test
+91340 [pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.xml.XMLTestOutcomeReporter@69849c1f: Generating report for test outcome: Search by keyword:fill_and_save_profile_info_test
+91343 [pool-2-thread-2] INFO net.thucydides.core.reports.ReportService - Processing test outcome Search by keyword:save_empty_fields_test
+91344 [pool-2-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.xml.XMLTestOutcomeReporter@69849c1f: Generating report for test outcome: Search by keyword:save_empty_fields_test
+91663 [pool-2-thread-1] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - Generating XML report for Fill and save profile info test to file /home/imusiievych/Desktop/WebAutomationCourses/artifact3/target/site/thucydides/00440709e0a365c7e8ee1e519aece896eb12fe11b0b4cae93fb64e1f1a6cd272.xml
+91663 [pool-2-thread-2] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - Generating XML report for Save empty fields test to file /home/imusiievych/Desktop/WebAutomationCourses/artifact3/target/site/thucydides/e887a4f8f01093e70a805970b0c095beb64af376de1bc03ff5ce494cc6166022.xml
+91699 [pool-2-thread-1] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - XML report generated (/home/imusiievych/Desktop/WebAutomationCourses/artifact3/target/site/thucydides/00440709e0a365c7e8ee1e519aece896eb12fe11b0b4cae93fb64e1f1a6cd272.xml bytes) 2465
+91699 [pool-2-thread-2] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - XML report generated (/home/imusiievych/Desktop/WebAutomationCourses/artifact3/target/site/thucydides/e887a4f8f01093e70a805970b0c095beb64af376de1bc03ff5ce494cc6166022.xml bytes) 5105
+91701 [pool-2-thread-2] INFO net.thucydides.core.reports.ReportService - Report generated for Search by keyword:save_empty_fields_test
+91701 [pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - Report generated for Search by keyword:fill_and_save_profile_info_test
+91706 [pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - Reports generated in: 386
+91706 [pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - Generating reports using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@20ad7e89
+91707 [pool-3-thread-1] INFO net.thucydides.core.reports.ReportService - Processing test outcome Search by keyword:fill_and_save_profile_info_test
+91707 [pool-3-thread-2] INFO net.thucydides.core.reports.ReportService - Processing test outcome Search by keyword:save_empty_fields_test
+91707 [pool-3-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@20ad7e89: Generating report for test outcome: Search by keyword:fill_and_save_profile_info_test
+91707 [pool-3-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@20ad7e89: Generating report for test outcome: Search by keyword:save_empty_fields_test
+91818 [pool-3-thread-2] INFO net.thucydides.core.reports.ReportService - Report generated for Search by keyword:save_empty_fields_test
+91818 [pool-3-thread-1] INFO net.thucydides.core.reports.ReportService - Report generated for Search by keyword:fill_and_save_profile_info_test
+91858 [pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - Reports generated in: 152
+91858 [pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - Generating reports using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@13d3d785
+91871 [pool-4-thread-1] INFO net.thucydides.core.reports.ReportService - Processing test outcome Search by keyword:fill_and_save_profile_info_test
+91871 [pool-4-thread-2] INFO net.thucydides.core.reports.ReportService - Processing test outcome Search by keyword:save_empty_fields_test
+91871 [pool-4-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@13d3d785: Generating report for test outcome: Search by keyword:fill_and_save_profile_info_test
+91871 [pool-4-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@13d3d785: Generating report for test outcome: Search by keyword:save_empty_fields_test
+91877 [pool-4-thread-1] INFO net.thucydides.core.requirements.RequirementsTagProvider - Reading requirements from net.thucydides.core.requirements.FileSystemRequirementsTagProvider@466ba73f
+91877 [pool-4-thread-1] INFO net.thucydides.core.requirements.RequirementsTagProvider - Reading requirements from net.thucydides.core.requirements.PackageAnnotationBasedTagProvider@9919904
+91878 [pool-4-thread-1] INFO net.thucydides.core.requirements.RequirementsTagProvider - Requirements found:[]
+94815 [pool-4-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Search by keyword:save_empty_fields_test =&gt; e887a4f8f01093e70a805970b0c095beb64af376de1bc03ff5ce494cc6166022.html
+94815 [pool-4-thread-2] INFO net.thucydides.core.reports.ReportService - Report generated for Search by keyword:save_empty_fields_test
+95233 [pool-4-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Search by keyword:fill_and_save_profile_info_test =&gt; 00440709e0a365c7e8ee1e519aece896eb12fe11b0b4cae93fb64e1f1a6cd272.html
+95233 [pool-4-thread-1] INFO net.thucydides.core.reports.ReportService - Report generated for Search by keyword:fill_and_save_profile_info_test
+95264 [pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - Reports generated in: 3405
+</system-err>
+  </testcase>
+</testsuite>

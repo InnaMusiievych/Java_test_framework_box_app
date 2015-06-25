@@ -1,0 +1,55 @@
+<acceptance-test-run title="Create new note" name="create_new_note" steps="3" successful="2" failures="0" errors="1" skipped="0" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="60435" timestamp="2015-05-28T16:54:36.276+03:00">
+  <user-story id="package3.requirements.Application.Search.SearchByKeyword" name="Search by keyword" path="package3.requirements.Application.Search">
+    <feature id="package3.requirements.Application.Search" name="Search"/>
+  </user-story>
+  <tags>
+    <tag name="Search" type="feature"/>
+    <tag name="Search by keyword" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="12723">
+    <screenshots>
+      <screenshot image="0c442d50369a237329e8f76e77eb233e_NONE.png"/>
+    </screenshots>
+    <description>Is login page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="10438">
+    <screenshots>
+      <screenshot image="ca61881fa99355872d5385f07fc5d300_NONE.png"/>
+    </screenshots>
+    <description>Logs in: &lt;span class=&apos;step-parameter&apos;&gt;i.musiievych@gmail.com, dolly1010vlad&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="ERROR" duration="37120">
+    <screenshots>
+      <screenshot image="ab49d76d5ef2162ca215dfe8d7d5a2fd_NONE.png"/>
+      <screenshot image="cbd42f82d846b3759ece71c35800b8ac_NONE.png"/>
+    </screenshots>
+    <description>Add new note: &lt;span class=&apos;step-parameter&apos;&gt;e7869ba6-db4a-4284-be6f-4ad454dd6a16, Body for fourth note is here&lt;/span&gt;</description>
+    <error>Timed out after 30 seconds. Unable to locate the element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.ace-line&quot;}
+Command duration or timeout: 214 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-52-generic&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4580cde8-54a2-4739-a933-a7d6d18a7cdd
+*** Element info: {Using=css selector, value=.ace-line}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-52-generic&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: unknown</error>
+    <exception>org.openqa.selenium.NoSuchElementException:Timed out after 30 seconds. Unable to locate the element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.ace-line&quot;}
+Command duration or timeout: 214 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-52-generic&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=38.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4580cde8-54a2-4739-a933-a7d6d18a7cdd
+*** Element info: {Using=css selector, value=.ace-line}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-52-generic&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: unknown
+[com.sun.proxy.$Proxy19.getCoordinates(Unknown Source), package3.steps.EndUserSteps.add_new_note(EndUserSteps.java:99), package3.HomePageTests.create_new_note(HomePageTests.java:50)]</exception>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,45 @@
+<acceptance-test-run title="Fill and save profile info test" name="fill_and_save_profile_info_test" steps="6" successful="2" failures="0" errors="1" skipped="3" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="51045" timestamp="2015-04-10T20:08:40.076+03:00">
+  <user-story id="package3.requirements.Application.Search.SearchByKeyword" name="Search by keyword" path="package3.requirements.Application.Search">
+    <feature id="package3.requirements.Application.Search" name="Search"/>
+  </user-story>
+  <tags>
+    <tag name="Search" type="feature"/>
+    <tag name="Search by keyword" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="12482">
+    <screenshots>
+      <screenshot image="8e88324f06d9f7b303efe61ff03242fd_NONE.png"/>
+    </screenshots>
+    <description>Is login page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="7557">
+    <screenshots>
+      <screenshot image="39a502752c2cb9fef3937aa107654d74_NONE.png"/>
+    </screenshots>
+    <description>Logs in: &lt;span class=&apos;step-parameter&apos;&gt;i.musiievych@gmail.com, dolly1010vlad&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="ERROR" duration="30838">
+    <screenshots>
+      <screenshot image="2538570d4a4d4d3018deac1b9689ed63_NONE.png"/>
+    </screenshots>
+    <description>Go to profile and branding</description>
+    <error>Expected enabled element was not enabled
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.7.0_75&apos;
+Driver info: driver.version: unknown</error>
+    <exception>org.openqa.selenium.ElementNotVisibleException:Expected enabled element was not enabled
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.7.0_75&apos;
+Driver info: driver.version: unknown
+[com.sun.proxy.$Proxy20.click(Unknown Source), package3.pages.BoxHomePage.navigateToHomeDropdownPage(BoxHomePage.java:187), package3.steps.EndUserSteps.goToProfileAndBranding(EndUserSteps.java:55), package3.EditUserProfileTests.fill_and_save_profile_info_test(EditUserProfileTests.java:43)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="3">
+    <description>Empties profile info</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="3">
+    <description>Fill profile information: &lt;span class=&apos;step-parameter&apos;&gt;Inna Musiievych, cogniance, www.cogniance.com, SET, 0933501371, str.Somestreet, 23&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="8">
+    <description>Verify information saved: &lt;span class=&apos;step-parameter&apos;&gt;Inna Musiievych, cogniance, www.cogniance.com, SET, 0933501371, str.Somestreet, 23&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

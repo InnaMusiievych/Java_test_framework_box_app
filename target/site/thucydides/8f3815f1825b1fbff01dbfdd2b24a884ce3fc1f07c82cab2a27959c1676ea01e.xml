@@ -1,0 +1,28 @@
+<acceptance-test-run title="A1 click on single sign on button" name="a1_click_on_single_sign_on_button" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="5436" timestamp="2015-04-10T20:07:51.890+03:00">
+  <user-story id="package3.requirements.Application.Search.SearchByKeyword" name="Search by keyword" path="package3.requirements.Application.Search">
+    <feature id="package3.requirements.Application.Search" name="Search"/>
+  </user-story>
+  <tags>
+    <tag name="Search" type="feature"/>
+    <tag name="Search by keyword" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="1752">
+    <screenshots>
+      <screenshot image="b915d3b3ca21cde80ed2c828bc7b8cfd_NONE.png"/>
+      <screenshot image="d2da6b14127b1796236a26d086984cf7_NONE.png"/>
+    </screenshots>
+    <description>Is login page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="2201">
+    <screenshots>
+      <screenshot image="040e8b4dda2d5a2cbfd8108e1d29e29b_NONE.png"/>
+    </screenshots>
+    <description>Click on single sign on button</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1474">
+    <screenshots>
+      <screenshot image="0d87a85ec63ae5b1d0e852d999066aac_NONE.png"/>
+    </screenshots>
+    <description>Verify single sign on page</description>
+  </test-step>
+</acceptance-test-run>

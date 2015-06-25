@@ -1,0 +1,33 @@
+<acceptance-test-run title="A2 click on reset password button" name="a2_click_on_reset_password_button" steps="3" successful="0" failures="0" errors="1" skipped="2" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="262" timestamp="2015-04-10T20:08:15.468+03:00">
+  <user-story id="package3.requirements.Application.Search.SearchByKeyword" name="Search by keyword" path="package3.requirements.Application.Search">
+    <feature id="package3.requirements.Application.Search" name="Search"/>
+  </user-story>
+  <tags>
+    <tag name="Search" type="feature"/>
+    <tag name="Search by keyword" type="story"/>
+  </tags>
+  <test-step result="ERROR" duration="194">
+    <description>Is login page</description>
+    <error>Window not found. The browser window may have been closed.
+Command duration or timeout: 70 milliseconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.1, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3424aad-ee60-484c-a593-33498af270c8</error>
+    <exception>org.openqa.selenium.NoSuchWindowException:Window not found. The browser window may have been closed.
+Command duration or timeout: 70 milliseconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.1, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3424aad-ee60-484c-a593-33498af270c8
+[package3.steps.EndUserSteps.is_login_page(EndUserSteps.java:35), package3.LoginTests.a2_click_on_reset_password_button(LoginTests.java:52)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="63">
+    <description>Click on reset password button</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>Verify reset password page</description>
+  </test-step>
+</acceptance-test-run>

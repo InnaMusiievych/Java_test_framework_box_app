@@ -1,0 +1,27 @@
+<acceptance-test-run title="A3 click on create account button" name="a3_click_on_create_account_button" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="35627" timestamp="2015-04-10T20:06:11.793+03:00">
+  <user-story id="package3.requirements.Application.Search.SearchByKeyword" name="Search by keyword" path="package3.requirements.Application.Search">
+    <feature id="package3.requirements.Application.Search" name="Search"/>
+  </user-story>
+  <tags>
+    <tag name="Search" type="feature"/>
+    <tag name="Search by keyword" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="28635">
+    <screenshots>
+      <screenshot image="f105eefb6ec87f5b8edfa5d6225e6112_NONE.png"/>
+    </screenshots>
+    <description>Is login page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3357">
+    <screenshots>
+      <screenshot image="c8a42e8627573656770643a91d99b980_NONE.png"/>
+    </screenshots>
+    <description>Click on create account button</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3518">
+    <screenshots>
+      <screenshot image="e644eeb5a0352f3d9712864ba61ccb80_NONE.png"/>
+    </screenshots>
+    <description>Verify create account page</description>
+  </test-step>
+</acceptance-test-run>

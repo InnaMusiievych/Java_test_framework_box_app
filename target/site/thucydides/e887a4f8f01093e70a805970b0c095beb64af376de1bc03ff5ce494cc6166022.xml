@@ -1,0 +1,43 @@
+<acceptance-test-run title="Save empty fields test" name="save_empty_fields_test" steps="5" successful="2" failures="0" errors="1" skipped="2" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="39783" timestamp="2015-04-10T20:09:31.471+03:00">
+  <user-story id="package3.requirements.Application.Search.SearchByKeyword" name="Search by keyword" path="package3.requirements.Application.Search">
+    <feature id="package3.requirements.Application.Search" name="Search"/>
+  </user-story>
+  <tags>
+    <tag name="Search" type="feature"/>
+    <tag name="Search by keyword" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="1974">
+    <screenshots>
+      <screenshot image="2538570d4a4d4d3018deac1b9689ed63_NONE.png"/>
+      <screenshot image="d18a1c90cc815d750deb9588660cf6cd_NONE.png"/>
+    </screenshots>
+    <description>Is login page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="6941">
+    <screenshots>
+      <screenshot image="01e0a5af7ae19b201c3077faec1de9fd_NONE.png"/>
+    </screenshots>
+    <description>Logs in: &lt;span class=&apos;step-parameter&apos;&gt;i.musiievych@gmail.com, dolly1010vlad&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="ERROR" duration="30837">
+    <screenshots>
+      <screenshot image="1e74f7c2fb6a0e2c61def307a8ee0ee7_NONE.png"/>
+    </screenshots>
+    <description>Go to profile and branding</description>
+    <error>Expected enabled element was not enabled
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.7.0_75&apos;
+Driver info: driver.version: unknown</error>
+    <exception>org.openqa.selenium.ElementNotVisibleException:Expected enabled element was not enabled
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.7.0_75&apos;
+Driver info: driver.version: unknown
+[com.sun.proxy.$Proxy20.click(Unknown Source), package3.pages.BoxHomePage.navigateToHomeDropdownPage(BoxHomePage.java:187), package3.steps.EndUserSteps.goToProfileAndBranding(EndUserSteps.java:55), package3.EditUserProfileTests.save_empty_fields_test(EditUserProfileTests.java:51)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="2">
+    <description>Empties profile info</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>Verify error message for username is displayed</description>
+  </test-step>
+</acceptance-test-run>

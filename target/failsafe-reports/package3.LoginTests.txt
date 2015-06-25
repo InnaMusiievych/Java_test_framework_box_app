@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: package3.LoginTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 123.818 sec <<< FAILURE!
+a4_logs_in_to_page_with_incorrect_creds(package3.LoginTests)  Time elapsed: 0.005 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Element is not usable [[FirefoxDriver: firefox on LINUX (e3424aad-ee60-484c-a593-33498af270c8)] -> css selector: .notification_inner]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'imusiievych-E520', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-49-generic', java.version: '1.8.0_11'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'imusiievych-E520', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-49-generic', java.version: '1.8.0_11'
+Driver info: driver.version: unknown
+	at com.sun.proxy.$Proxy20.isDisplayed(Unknown Source)
+	at package3.steps.VerifySteps.verifyErrorMessageForInvalidCreds(VerifySteps.java:65)
+	at package3.LoginTests.a4_logs_in_to_page_with_incorrect_creds(LoginTests.java:80)
+logs_in_to_the_page_with_correct_creds(package3.LoginTests)  Time elapsed: 0.002 sec  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 205 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'imusiievych-E520', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-49-generic', java.version: '1.8.0_11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.1, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3424aad-ee60-484c-a593-33498af270c8
+*** Element info: {Using=class name, value=user_name}
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'imusiievych-E520', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-49-generic', java.version: '1.8.0_11'
+Driver info: driver.version: unknown
+	at com.sun.proxy.$Proxy20.getText(Unknown Source)
+	at package3.pages.BoxHomePage.userName(BoxHomePage.java:154)
+	at package3.steps.VerifySteps.verifyUserNameOnHomePage(VerifySteps.java:31)
+	at package3.LoginTests.logs_in_to_the_page_with_correct_creds(LoginTests.java:68)
+a2_click_on_reset_password_button(package3.LoginTests)  Time elapsed: 0.013 sec  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'imusiievych-E520', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-49-generic', java.version: '1.8.0_11'
+Driver info: driver.version: unknown
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'imusiievych-E520', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-49-generic', java.version: '1.8.0_11'
+Driver info: driver.version: unknown
+	at <anonymous class>.nsCommandProcessor.prototype.execute(file:///tmp/anonymous5259521035097422556webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12343)
+	at <anonymous class>.Dispatcher.executeAs/<(file:///tmp/anonymous5259521035097422556webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9061)
+	at <anonymous class>.Resource.prototype.handle(file:///tmp/anonymous5259521035097422556webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9208)
+	at <anonymous class>.Dispatcher.prototype.dispatch(file:///tmp/anonymous5259521035097422556webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9155)
+	at <anonymous class>.WebDriverServer/<.handle(file:///tmp/anonymous5259521035097422556webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12128)
+	at <anonymous class>.createHandlerFunc/<(file:///tmp/anonymous5259521035097422556webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2058)
+	at <anonymous class>.ServerHandler.prototype.handleResponse(file:///tmp/anonymous5259521035097422556webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2391)
+	at <anonymous class>.Connection.prototype.process(file:///tmp/anonymous5259521035097422556webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1227)
+	at <anonymous class>.RequestReader.prototype._handleResponse(file:///tmp/anonymous5259521035097422556webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1681)
+	at <anonymous class>.RequestReader.prototype._processBody(file:///tmp/anonymous5259521035097422556webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1529)
+	at <anonymous class>.RequestReader.prototype.onInputStreamReady(file:///tmp/anonymous5259521035097422556webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1397)

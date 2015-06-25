@@ -1,0 +1,72 @@
+<acceptance-test-run title="A4 logs in to page with incorrect creds" name="a4_logs_in_to_page_with_incorrect_creds" steps="7" successful="6" failures="0" errors="1" skipped="0" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="63912" timestamp="2015-04-10T20:06:47.960+03:00">
+  <user-story id="package3.requirements.Application.Search.SearchByKeyword" name="Search by keyword" path="package3.requirements.Application.Search">
+    <feature id="package3.requirements.Application.Search" name="Search"/>
+  </user-story>
+  <tags>
+    <tag name="Search" type="feature"/>
+    <tag name="Search by keyword" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="2546">
+    <screenshots>
+      <screenshot image="e644eeb5a0352f3d9712864ba61ccb80_NONE.png"/>
+      <screenshot image="92d826ec2c8f0cb6efc578c1fed01bec_NONE.png"/>
+    </screenshots>
+    <description>Is login page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="12246">
+    <screenshots>
+      <screenshot image="3106a7a321ebd23cd724c5f3fe5022f2_NONE.png"/>
+      <screenshot image="1ddb1293d72b95eff908ae097a77cbf5_NONE.png"/>
+    </screenshots>
+    <description>Logs in: &lt;span class=&apos;step-parameter&apos;&gt;i.musiievych@gmail.com, 10601b7e-6ab2-4917-bcc5-52c1ad439b73&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1311">
+    <screenshots>
+      <screenshot image="1ddb1293d72b95eff908ae097a77cbf5_NONE.png"/>
+    </screenshots>
+    <description>Verify error message for invalid creds: &lt;span class=&apos;step-parameter&apos;&gt;true&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="8444">
+    <screenshots>
+      <screenshot image="5d6f6049b262b9351f1cefc56e495a87_NONE.png"/>
+    </screenshots>
+    <description>Logs in: &lt;span class=&apos;step-parameter&apos;&gt;10601b7e-6ab2-4917-bcc5-52c1ad439b73, dolly1010vlad&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="997">
+    <screenshots>
+      <screenshot image="5d6f6049b262b9351f1cefc56e495a87_NONE.png"/>
+    </screenshots>
+    <description>Verify error message for invalid creds: &lt;span class=&apos;step-parameter&apos;&gt;true&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="7385">
+    <screenshots>
+      <screenshot image="d2da6b14127b1796236a26d086984cf7_NONE.png"/>
+    </screenshots>
+    <description>Logs in: &lt;span class=&apos;step-parameter&apos;&gt;, &lt;/span&gt;</description>
+  </test-step>
+  <test-step result="ERROR" duration="30953">
+    <screenshots>
+      <screenshot image="b915d3b3ca21cde80ed2c828bc7b8cfd_NONE.png"/>
+    </screenshots>
+    <description>Verify error message for invalid creds: &lt;span class=&apos;step-parameter&apos;&gt;false&lt;/span&gt;</description>
+    <error>Timed out after 30 seconds. Unable to locate the element: Element is not usable [[FirefoxDriver: firefox on LINUX (e3424aad-ee60-484c-a593-33498af270c8)] -&gt; css selector: .notification_inner]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown</error>
+    <exception>org.openqa.selenium.NoSuchElementException:Timed out after 30 seconds. Unable to locate the element: Element is not usable [[FirefoxDriver: firefox on LINUX (e3424aad-ee60-484c-a593-33498af270c8)] -&gt; css selector: .notification_inner]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown
+[com.sun.proxy.$Proxy20.isDisplayed(Unknown Source), package3.steps.VerifySteps.verifyErrorMessageForInvalidCreds(VerifySteps.java:65), package3.LoginTests.a4_logs_in_to_page_with_incorrect_creds(LoginTests.java:80)]</exception>
+  </test-step>
+</acceptance-test-run>

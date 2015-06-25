@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Search by keyword","A1 click on single sign on button","SUCCESS","2015-04-10T17:07:51.890Z","0.0","5.44"
+"Search by keyword","A3 click on create account button","SUCCESS","2015-04-10T17:06:11.793Z","0.0","35.63"
+"Search by keyword","Create new note","SUCCESS","2015-04-10T17:06:11.801Z","0.0","62.3"
+"Search by keyword","Fill and save profile info test","SUCCESS","2015-04-10T17:06:11.793Z","0.0","54.48"

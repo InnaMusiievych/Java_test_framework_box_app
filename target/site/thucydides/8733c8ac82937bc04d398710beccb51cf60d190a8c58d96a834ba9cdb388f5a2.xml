@@ -1,0 +1,43 @@
+<acceptance-test-run title="Logs in to the page with correct creds" name="logs_in_to_the_page_with_correct_creds" steps="3" successful="2" failures="0" errors="1" skipped="0" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="18111" timestamp="2015-04-10T20:07:57.341+03:00">
+  <user-story id="package3.requirements.Application.Search.SearchByKeyword" name="Search by keyword" path="package3.requirements.Application.Search">
+    <feature id="package3.requirements.Application.Search" name="Search"/>
+  </user-story>
+  <tags>
+    <tag name="Search" type="feature"/>
+    <tag name="Search by keyword" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="2157">
+    <screenshots>
+      <screenshot image="0d87a85ec63ae5b1d0e852d999066aac_NONE.png"/>
+      <screenshot image="98b1b1b43049feeb4bc5f97412493086_NONE.png"/>
+    </screenshots>
+    <description>Is login page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="7607">
+    <screenshots>
+      <screenshot image="37fcbee3c07871d2463764768ee0dd93_NONE.png"/>
+    </screenshots>
+    <description>Logs in: &lt;span class=&apos;step-parameter&apos;&gt;i.musiievych@gmail.com, dolly1010vlad&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="ERROR" duration="8335">
+    <screenshots>
+      <screenshot image="37fcbee3c07871d2463764768ee0dd93_NONE.png"/>
+    </screenshots>
+    <description>Verify user name on home page</description>
+    <error>Window not found. The browser window may have been closed.
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown</error>
+    <exception>org.openqa.selenium.ElementNotVisibleException:Window not found. The browser window may have been closed.
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown
+[com.sun.proxy.$Proxy20.getText(Unknown Source), package3.pages.BoxHomePage.userName(BoxHomePage.java:154), package3.steps.VerifySteps.verifyUserNameOnHomePage(VerifySteps.java:31), package3.LoginTests.logs_in_to_the_page_with_correct_creds(LoginTests.java:68)]</exception>
+  </test-step>
+</acceptance-test-run>

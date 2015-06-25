@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="package3.HomePageTests" time="62.358" errors="3" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/local/java/jdk1.8.0_11/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.11-b03"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/imusiievych/Desktop/WebAutomationCourses/artifact3"/>
+    <property name="java.runtime.version" value="1.8.0_11-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/local/java/jdk1.8.0_11/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.13.0-49-generic"/>
+    <property name="user.home" value="/home/imusiievych"/>
+    <property name="user.timezone" value="Europe/Kiev"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="imusiievych"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/local/java/jdk1.8.0_11/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify thucydides:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_11"/>
+    <property name="java.ext.dirs" value="/usr/local/java/jdk1.8.0_11/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/local/java/jdk1.8.0_11/jre/lib/resources.jar:/usr/local/java/jdk1.8.0_11/jre/lib/rt.jar:/usr/local/java/jdk1.8.0_11/jre/lib/sunrsasign.jar:/usr/local/java/jdk1.8.0_11/jre/lib/jsse.jar:/usr/local/java/jdk1.8.0_11/jre/lib/jce.jar:/usr/local/java/jdk1.8.0_11/jre/lib/charsets.jar:/usr/local/java/jdk1.8.0_11/jre/lib/jfr.jar:/usr/local/java/jdk1.8.0_11/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="package3.HomePageTests" name="create_new_note" time="62.347"/>
+  <testcase classname="package3.HomePageTests" name="delete_note" time="0.001">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;login&quot;}
+Command duration or timeout: 15 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.1, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 864c7811-6906-48c8-be96-226406d39348
+*** Element info: {Using=id, value=login}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;login&quot;}
+Command duration or timeout: 15 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.1, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 864c7811-6906-48c8-be96-226406d39348
+*** Element info: {Using=id, value=login}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown
+	at com.sun.proxy.$Proxy20.clear(Unknown Source)
+	at package3.steps.EndUserSteps.logs_in(EndUserSteps.java:40)
+	at package3.HomePageTests.testInitialization(HomePageTests.java:38)
+</error>
+    <system-out>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;login&quot;}
+Command duration or timeout: 15 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.1, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 864c7811-6906-48c8-be96-226406d39348
+*** Element info: {Using=id, value=login}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown</system-out>
+    <system-err>62865 [pool-1-thread-3] INFO net.thucydides.core.Thucydides - Test Suite Started: Home page tests
+62866 [pool-1-thread-3] INFO net.thucydides.core.Thucydides - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ &lt; | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: delete_note
+--------------------------------------------------------------------
+62866 [pool-1-thread-3] INFO net.thucydides.core.Thucydides - TEST NUMBER: 6
+64386 [pool-1-thread-3] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: is_login_page
+68701 [pool-1-thread-3] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: is_login_page
+69290 [pool-1-thread-3] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: logs_in
+99991 [pool-1-thread-3] INFO net.thucydides.core.steps.StepInterceptor - STEP FAILED: logs_in - Timed out after 30 seconds. Unable to locate the element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;login&quot;}
+Command duration or timeout: 15 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.1, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 864c7811-6906-48c8-be96-226406d39348
+*** Element info: {Using=id, value=login}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown
+100092 [pool-1-thread-3] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: delete_note_by_name
+</system-err>
+  </testcase>
+  <testcase classname="package3.HomePageTests" name="delete_notes" time="0.001">
+    <error message="Window not found. The browser window may have been closed.
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.nsCommandProcessor.prototype.execute(file:///tmp/anonymous8820244828465701150webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12343)
+	at &lt;anonymous class&gt;.Dispatcher.executeAs/&lt;(file:///tmp/anonymous8820244828465701150webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9061)
+	at &lt;anonymous class&gt;.Resource.prototype.handle(file:///tmp/anonymous8820244828465701150webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9208)
+	at &lt;anonymous class&gt;.Dispatcher.prototype.dispatch(file:///tmp/anonymous8820244828465701150webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9155)
+	at &lt;anonymous class&gt;.WebDriverServer/&lt;.handle(file:///tmp/anonymous8820244828465701150webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12128)
+	at &lt;anonymous class&gt;.createHandlerFunc/&lt;(file:///tmp/anonymous8820244828465701150webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2058)
+	at &lt;anonymous class&gt;.ServerHandler.prototype.handleResponse(file:///tmp/anonymous8820244828465701150webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2391)
+	at &lt;anonymous class&gt;.Connection.prototype.process(file:///tmp/anonymous8820244828465701150webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1227)
+	at &lt;anonymous class&gt;.RequestReader.prototype._handleResponse(file:///tmp/anonymous8820244828465701150webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1681)
+	at &lt;anonymous class&gt;.RequestReader.prototype._processBody(file:///tmp/anonymous8820244828465701150webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1529)
+	at &lt;anonymous class&gt;.RequestReader.prototype.onInputStreamReady(file:///tmp/anonymous8820244828465701150webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1397)
+</error>
+    <system-out>org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown</system-out>
+    <system-err>100107 [pool-1-thread-3] INFO net.thucydides.core.Thucydides - Test Suite Started: Home page tests
+100107 [pool-1-thread-3] INFO net.thucydides.core.Thucydides - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ &lt; | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: delete_notes
+--------------------------------------------------------------------
+100107 [pool-1-thread-3] INFO net.thucydides.core.Thucydides - TEST NUMBER: 7
+100644 [pool-1-thread-3] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: is_login_page
+104379 [pool-1-thread-3] INFO net.thucydides.core.steps.StepInterceptor - STEP DONE: is_login_page
+104942 [pool-1-thread-3] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: logs_in
+115877 [pool-1-thread-3] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot - driver closed already? (Window not found. The browser window may have been closed.
+Command duration or timeout: 129 milliseconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.1, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 864c7811-6906-48c8-be96-226406d39348)
+115878 [pool-1-thread-3] INFO net.thucydides.core.steps.StepInterceptor - STEP FAILED: logs_in - Window not found. The browser window may have been closed.
+Command duration or timeout: 138 milliseconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.1, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 864c7811-6906-48c8-be96-226406d39348
+*** Element info: {Using=id, value=login}
+115880 [pool-1-thread-3] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: delete_note_by_index
+</system-err>
+  </testcase>
+  <testcase classname="package3.HomePageTests" name="search_for_nonexisting_file" time="0.009">
+    <error message="Window not found. The browser window may have been closed.
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.nsCommandProcessor.prototype.execute(file:///tmp/anonymous8820244828465701150webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12343)
+	at &lt;anonymous class&gt;.Dispatcher.executeAs/&lt;(file:///tmp/anonymous8820244828465701150webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9061)
+	at &lt;anonymous class&gt;.Resource.prototype.handle(file:///tmp/anonymous8820244828465701150webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9208)
+	at &lt;anonymous class&gt;.Dispatcher.prototype.dispatch(file:///tmp/anonymous8820244828465701150webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9155)
+	at &lt;anonymous class&gt;.WebDriverServer/&lt;.handle(file:///tmp/anonymous8820244828465701150webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12128)
+	at &lt;anonymous class&gt;.createHandlerFunc/&lt;(file:///tmp/anonymous8820244828465701150webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2058)
+	at &lt;anonymous class&gt;.ServerHandler.prototype.handleResponse(file:///tmp/anonymous8820244828465701150webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2391)
+	at &lt;anonymous class&gt;.Connection.prototype.process(file:///tmp/anonymous8820244828465701150webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1227)
+	at &lt;anonymous class&gt;.RequestReader.prototype._handleResponse(file:///tmp/anonymous8820244828465701150webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1681)
+	at &lt;anonymous class&gt;.RequestReader.prototype._processBody(file:///tmp/anonymous8820244828465701150webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1529)
+	at &lt;anonymous class&gt;.RequestReader.prototype.onInputStreamReady(file:///tmp/anonymous8820244828465701150webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1397)
+</error>
+    <system-out>org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: driver.version: unknown</system-out>
+    <system-err>115910 [pool-1-thread-3] INFO net.thucydides.core.Thucydides - Test Suite Started: Home page tests
+115910 [pool-1-thread-3] INFO net.thucydides.core.Thucydides - 
+  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+ |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+   | | | |___ ___) || |    ___) || |/ ___ \|  _ &lt; | | | |___| |_| |
+   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                   
+
+TEST STARTED: search_for_nonexisting_file
+--------------------------------------------------------------------
+115910 [pool-1-thread-3] INFO net.thucydides.core.Thucydides - TEST NUMBER: 10
+116015 [pool-1-thread-3] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot - driver closed already? (Window not found. The browser window may have been closed.
+Command duration or timeout: 98 milliseconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.1, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 864c7811-6906-48c8-be96-226406d39348)
+116015 [pool-1-thread-3] INFO net.thucydides.core.steps.StepInterceptor - STARTING STEP: is_login_page
+116258 [pool-1-thread-3] WARN net.thucydides.core.webdriver.WebDriverFacade - Failed to take screenshot - driver closed already? (Window not found. The browser window may have been closed.
+Command duration or timeout: 15 milliseconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.1, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 864c7811-6906-48c8-be96-226406d39348)
+116259 [pool-1-thread-3] INFO net.thucydides.core.steps.StepInterceptor - STEP FAILED: is_login_page - Window not found. The browser window may have been closed.
+Command duration or timeout: 118 milliseconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;imusiievych-E520&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.13.0-49-generic&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.1, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 864c7811-6906-48c8-be96-226406d39348
+116261 [pool-1-thread-3] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: logs_in
+116366 [pool-1-thread-3] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: search_for_query
+116368 [pool-1-thread-3] INFO net.thucydides.core.steps.StepInterceptor - SKIPPED STEP: verify_no_results_for_search
+116369 [pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - Reporting formats: [JSON, XML, HTML]
+116370 [pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@6c9e5d47(format = Optional.of(XML))
+116370 [pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@6c9e5d47
+116370 [pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@7bb54aaa(format = Optional.of(JSON))
+116370 [pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@7bb54aaa
+116370 [pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@7c346d2c(format = Optional.of(HTML))
+116370 [pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@7c346d2c
+116370 [pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - Generating reports using: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@6c9e5d47
+116372 [pool-5-thread-1] INFO net.thucydides.core.reports.ReportService - Processing test outcome Search by keyword:create_new_note
+116372 [pool-5-thread-3] INFO net.thucydides.core.reports.ReportService - Processing test outcome Search by keyword:delete_notes
+116373 [pool-5-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.xml.XMLTestOutcomeReporter@6c9e5d47: Generating report for test outcome: Search by keyword:delete_notes
+116373 [pool-5-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.xml.XMLTestOutcomeReporter@6c9e5d47: Generating report for test outcome: Search by keyword:create_new_note
+116373 [pool-5-thread-4] INFO net.thucydides.core.reports.ReportService - Processing test outcome Search by keyword:search_for_nonexisting_file
+116374 [pool-5-thread-4] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.xml.XMLTestOutcomeReporter@6c9e5d47: Generating report for test outcome: Search by keyword:search_for_nonexisting_file
+116376 [pool-5-thread-2] INFO net.thucydides.core.reports.ReportService - Processing test outcome Search by keyword:delete_note
+116376 [pool-5-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.xml.XMLTestOutcomeReporter@6c9e5d47: Generating report for test outcome: Search by keyword:delete_note
+116380 [pool-5-thread-3] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - Generating XML report for Delete notes to file /home/imusiievych/Desktop/WebAutomationCourses/artifact3/target/site/thucydides/484fe1e10c7577693990672593b61db8a46c20c66ca4a51276437e44d9b1429c.xml
+116381 [pool-5-thread-2] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - Generating XML report for Delete note to file /home/imusiievych/Desktop/WebAutomationCourses/artifact3/target/site/thucydides/5bedf6f2b1a8d4976a290a64932015314eb016bcc320f5aa50931ade673b22bb.xml
+116381 [pool-5-thread-1] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - Generating XML report for Create new note to file /home/imusiievych/Desktop/WebAutomationCourses/artifact3/target/site/thucydides/8df15d4272c875d7f5af5d931658641fcc2ef4dcc71e352bad067ac223b17f88.xml
+116384 [pool-5-thread-3] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - XML report generated (/home/imusiievych/Desktop/WebAutomationCourses/artifact3/target/site/thucydides/484fe1e10c7577693990672593b61db8a46c20c66ca4a51276437e44d9b1429c.xml bytes) 3424
+116384 [pool-5-thread-3] INFO net.thucydides.core.reports.ReportService - Report generated for Search by keyword:delete_notes
+116385 [pool-5-thread-1] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - XML report generated (/home/imusiievych/Desktop/WebAutomationCourses/artifact3/target/site/thucydides/8df15d4272c875d7f5af5d931658641fcc2ef4dcc71e352bad067ac223b17f88.xml bytes) 2128
+116385 [pool-5-thread-1] INFO net.thucydides.core.reports.ReportService - Report generated for Search by keyword:create_new_note
+116390 [pool-5-thread-2] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - XML report generated (/home/imusiievych/Desktop/WebAutomationCourses/artifact3/target/site/thucydides/5bedf6f2b1a8d4976a290a64932015314eb016bcc320f5aa50931ade673b22bb.xml bytes) 4878
+116390 [pool-5-thread-2] INFO net.thucydides.core.reports.ReportService - Report generated for Search by keyword:delete_note
+116393 [pool-5-thread-4] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - Generating XML report for Search for nonexisting file to file /home/imusiievych/Desktop/WebAutomationCourses/artifact3/target/site/thucydides/eea549d3047bf3cc1a33586296834e3b16205cf6d9d7bae2c6a73d6173133c16.xml
+116394 [pool-5-thread-4] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - XML report generated (/home/imusiievych/Desktop/WebAutomationCourses/artifact3/target/site/thucydides/eea549d3047bf3cc1a33586296834e3b16205cf6d9d7bae2c6a73d6173133c16.xml bytes) 3261
+116394 [pool-5-thread-4] INFO net.thucydides.core.reports.ReportService - Report generated for Search by keyword:search_for_nonexisting_file
+116423 [pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - Reports generated in: 53
+116423 [pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - Generating reports using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@7bb54aaa
+116434 [pool-6-thread-1] INFO net.thucydides.core.reports.ReportService - Processing test outcome Search by keyword:create_new_note
+116434 [pool-6-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7bb54aaa: Generating report for test outcome: Search by keyword:create_new_note
+116437 [pool-6-thread-2] INFO net.thucydides.core.reports.ReportService - Processing test outcome Search by keyword:delete_note
+116437 [pool-6-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7bb54aaa: Generating report for test outcome: Search by keyword:delete_note
+116439 [pool-6-thread-1] INFO net.thucydides.core.reports.ReportService - Report generated for Search by keyword:create_new_note
+116441 [pool-6-thread-2] INFO net.thucydides.core.reports.ReportService - Report generated for Search by keyword:delete_note
+116441 [pool-6-thread-3] INFO net.thucydides.core.reports.ReportService - Processing test outcome Search by keyword:delete_notes
+116441 [pool-6-thread-4] INFO net.thucydides.core.reports.ReportService - Processing test outcome Search by keyword:search_for_nonexisting_file
+116441 [pool-6-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7bb54aaa: Generating report for test outcome: Search by keyword:delete_notes
+116441 [pool-6-thread-4] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@7bb54aaa: Generating report for test outcome: Search by keyword:search_for_nonexisting_file
+116443 [pool-6-thread-4] INFO net.thucydides.core.reports.ReportService - Report generated for Search by keyword:search_for_nonexisting_file
+116445 [pool-6-thread-3] INFO net.thucydides.core.reports.ReportService - Report generated for Search by keyword:delete_notes
+116485 [pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - Reports generated in: 62
+116485 [pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - Generating reports using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@7c346d2c
+116485 [pool-7-thread-1] INFO net.thucydides.core.reports.ReportService - Processing test outcome Search by keyword:create_new_note
+116485 [pool-7-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@7c346d2c: Generating report for test outcome: Search by keyword:create_new_note
+116487 [pool-7-thread-3] INFO net.thucydides.core.reports.ReportService - Processing test outcome Search by keyword:delete_notes
+116488 [pool-7-thread-3] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@7c346d2c: Generating report for test outcome: Search by keyword:delete_notes
+116490 [pool-7-thread-2] INFO net.thucydides.core.reports.ReportService - Processing test outcome Search by keyword:delete_note
+116490 [pool-7-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@7c346d2c: Generating report for test outcome: Search by keyword:delete_note
+116491 [pool-7-thread-4] INFO net.thucydides.core.reports.ReportService - Processing test outcome Search by keyword:search_for_nonexisting_file
+116491 [pool-7-thread-4] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@7c346d2c: Generating report for test outcome: Search by keyword:search_for_nonexisting_file
+116560 [pool-7-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Search by keyword:delete_notes =&gt; 484fe1e10c7577693990672593b61db8a46c20c66ca4a51276437e44d9b1429c.html
+116561 [pool-7-thread-3] INFO net.thucydides.core.reports.ReportService - Report generated for Search by keyword:delete_notes
+116561 [pool-7-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Search by keyword:search_for_nonexisting_file =&gt; eea549d3047bf3cc1a33586296834e3b16205cf6d9d7bae2c6a73d6173133c16.html
+116561 [pool-7-thread-4] INFO net.thucydides.core.reports.ReportService - Report generated for Search by keyword:search_for_nonexisting_file
+116822 [pool-7-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Search by keyword:delete_note =&gt; 5bedf6f2b1a8d4976a290a64932015314eb016bcc320f5aa50931ade673b22bb.html
+116822 [pool-7-thread-2] INFO net.thucydides.core.reports.ReportService - Report generated for Search by keyword:delete_note
+116892 [pool-7-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Search by keyword:create_new_note =&gt; 8df15d4272c875d7f5af5d931658641fcc2ef4dcc71e352bad067ac223b17f88.html
+116892 [pool-7-thread-1] INFO net.thucydides.core.reports.ReportService - Report generated for Search by keyword:create_new_note
+116902 [pool-1-thread-3] INFO net.thucydides.core.reports.ReportService - Reports generated in: 417
+</system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Search by keyword","A2 click on reset password button","ERROR","2015-04-10T17:08:15.468Z","0.0","0.26"
+"Search by keyword","A4 logs in to page with incorrect creds","ERROR","2015-04-10T17:06:47.960Z","0.0","63.91"
+"Search by keyword","Delete note","ERROR","2015-04-10T17:07:14.186Z","0.0","37.23"
+"Search by keyword","Delete notes","ERROR","2015-04-10T17:07:51.428Z","0.0","15.77"
+"Search by keyword","Logs in to the page with correct creds","ERROR","2015-04-10T17:07:57.341Z","0.0","18.11"
+"Search by keyword","Save empty fields test","ERROR","2015-04-10T17:07:06.311Z","0.0","35.71"
+"Search by keyword","Search for nonexisting file","ERROR","2015-04-10T17:08:07.231Z","0.0","0.46"

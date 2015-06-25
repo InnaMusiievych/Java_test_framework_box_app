@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Home</title>
+    <link rel="shortcut icon" href="favicon.ico" >
+    <link href="css/core.css" rel="stylesheet" type="text/css"/>
+    <style type="text/css">
+	#slider {
+	    position:relative;
+	    width:1000px; /* Change this to your images width */
+	    height:800px; /* Change this to your images height */
+	    background:url(images/loading.gif) no-repeat 50% 50%;
+	}
+	#slider img {
+	    position:absolute;
+	    top:0px;
+	    left:0px;
+	    display:none;
+	}
+	#slider a {
+	    border:0;
+	    display:block;
+	}
+
+    </style>
+
+	<!-- CSS Files -->
+    <link href="slides/js/global.css" rel="stylesheet" type="text/css"/>
+
+    <script src="scripts/jquery.js"></script>
+
+	<link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+
+	<script src="nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+
+    function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+            vars[key] = value;
+        });
+        return vars;
+    }
+
+    var screenshotIndex = getUrlVars()["screenshot"];
+
+	$(window).load(function() {
+	    $('#slider').nivoSlider({
+            startSlide:screenshotIndex,
+            effect:'fade',
+			animSpeed:200,
+			directionNavHide:false,
+			manualAdvance:true,
+			keyboardNav:true
+		});
+	});
+	</script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/logo.jpg" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="bluetext"><a href="index.html" class="bluetext">Home</a> > <a href="ecdfc4dfd55db9ee15ba17811cad3cc0387ce1bd0db7bdc56a21519d879e680c.html">A3 click on create account button </a> > Screenshots </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div class="menu">
+    <ul>
+        <li><a href="index.html" class="current">Overall Test Results</a></li>
+        <li><a href="capabilities.html" >Requirements</a></li>
+    </ul>
+    <span class="date-and-time">Report generated 10-04-2015 20:08</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+    <div id="contentbody">
+        <div class="titlebar">
+        <div class="story-title">
+            <table width="1005">
+                <td width="50"><img class="story-outcome-icon" src="images/success.png" width="25" height="25"/> </td>
+                <td width="%"><span class="test-case-title"><span
+                        class="success-color">A3 click on create account button<span class="related-issue-title"></span></span></span>
+                </td>
+                <td width="100"><span class="test-case-duration"><span class="greentext">35.63s</span></span>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <a class="tagLink" href="104e86778c61b4270a19fa6dd7f05671eb0be10515a3780f86ccead031b4bc17.html">Search (feature)</a>
+                        <a class="tagLink" href="273bcb5ed6a158a4e8d778bc184d9ba1606d36e553c7c72620e5e05eca31c5cd.html">Search by keyword (story)</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+
+	 <div class="slider-wrapper theme-default">
+		<div id="slider">
+                <img src="f105eefb6ec87f5b8edfa5d6225e6112_NONE.png" alt="" title="Is login page" width="1288"/>
+                <img src="c8a42e8627573656770643a91d99b980_NONE.png" alt="" title="Click on create account button" width="1288"/>
+                <img src="e644eeb5a0352f3d9712864ba61ccb80_NONE.png" alt="" title="Verify create account page" width="1288"/>
+        </div>
+	  </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Thucydides version 0.9.268 - Build UNKNOWN</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<acceptance-test-run title="Validate user can add new folder" name="validateUserCanAddNewFolder" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="36164" timestamp="2015-04-29T13:11:01.893+03:00">
+  <user-story id="package3.requirements.Application.Search.SearchByKeyword" name="Search by keyword" path="package3.requirements.Application.Search">
+    <feature id="package3.requirements.Application.Search" name="Search"/>
+  </user-story>
+  <tags>
+    <tag name="Search" type="feature"/>
+    <tag name="Search by keyword" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="16230">
+    <screenshots>
+      <screenshot image="8e88324f06d9f7b303efe61ff03242fd_NONE.png"/>
+    </screenshots>
+    <description>Is login page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="9995">
+    <screenshots>
+      <screenshot image="020966f1767b825c4a87f810143e42e7_NONE.png"/>
+    </screenshots>
+    <description>Logs in: &lt;span class=&apos;step-parameter&apos;&gt;i.musiievych@gmail.com, dolly1010vlad&lt;/span&gt;</description>
+  </test-step>
+  <test-group name="Add new folder: &lt;span class=&apos;step-parameter&apos;&gt;Inna4658dab7-1860-4ffc-ad11-6f0e071f58df&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="a81d31e88102c90ff3b9c505320a2067_NONE.png"/>
+      <screenshot image="5a578deb85cc8aa8b47a2af59f8452a5_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2324">
+      <screenshots>
+        <screenshot image="6b9c4faf0d04a27e1cc5a05479c438ba_NONE.png"/>
+        <screenshot image="5cd4d01843d564f22e4ed39f370b8c8b_NONE.png"/>
+      </screenshots>
+      <description>Verify new folder popup is displayed</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="2256">
+    <screenshots>
+      <screenshot image="99e113aab998a58a98794cab3f1b1188_NONE.png"/>
+      <screenshot image="4a24ec8dbfafa6d8b73338d9df73803f_NONE.png"/>
+    </screenshots>
+    <description>Verify new folder is added: &lt;span class=&apos;step-parameter&apos;&gt;Inna4658dab7-1860-4ffc-ad11-6f0e071f58df&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>
